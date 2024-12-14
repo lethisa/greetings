@@ -5,6 +5,9 @@ inputs:
     description: 'Who to Great'
     required: true
     default: 'World'
+branding:
+  icon: 'heart'
+  color: 'red'
 outputs:
   answer:
     description: 'The Answer of Everything (always 42)'
