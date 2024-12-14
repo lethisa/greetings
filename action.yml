@@ -7,10 +7,7 @@ inputs:
     default: 'World'
 branding:
   icon: 'heart'
-  color: 'red'
-outputs:
-  answer:
-    description: 'The Answer of Everything (always 42)'
+  color: 'yellow'
 runs:
   using: 'docker'
   image:  'Dockerfile'

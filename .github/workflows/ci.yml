@@ -10,10 +10,3 @@ jobs:
         uses: ./
         with:
           who-to-great: '@lethisa'
-      - name: Output The Answer
-        run: echo "The Answer is ${{ steps.my-action.outputs.answer }}"
-      - name: Test The Container
-        if: ${{ steps.my-action.outputs.answer != 42 }}
-        run: |
-          echo "::error file=entrypoint.sh,line=3,title=Error in Container::The Answer was Not Expected"
-          exit 1
