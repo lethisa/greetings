@@ -1,0 +1,15 @@
+name: 'Docker Action Recipe'
+description: 'Greet Someone'
+inputs:
+  who-to-great:
+    description: 'Who to Great'
+    required: true
+    default: 'World'
+outputs:
+  answer:
+    description: 'The Answer of Everything (always 42)'
+runs:
+  using: 'docker'
+  image:  'Dockerfile'
+  args:
+    - ${{ inputs.who-to-great }}
