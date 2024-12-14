@@ -1,4 +1,4 @@
-name: 'Docker Action Recipe'
+name: 'Simple Docker Container Action Greetings'
 description: 'Greet Someone'
 inputs:
   who-to-great:
