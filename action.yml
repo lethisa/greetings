@@ -1,5 +1,5 @@
-name: 'Simple Docker Container Action Greetings'
-description: 'Greet Someone'
+name: 'Just SImple Greetings Someone'
+description: 'Simple Action Greetings Someone'
 inputs:
   who-to-great:
     description: 'Who to Great'
