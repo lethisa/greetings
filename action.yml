@@ -1,4 +1,4 @@
-name: 'Just SImple Greetings Someone'
+name: 'Just Simple Greetings'
 description: 'Simple Action Greetings Someone'
 inputs:
   who-to-great:
