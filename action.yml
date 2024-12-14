@@ -1,5 +1,5 @@
 name: 'Just Simple Greetings'
-description: 'Simple Action Greetings Someone'
+description: 'Simple Action Greetings to Someone'
 inputs:
   who-to-great:
     description: 'Who to Great'
